@@ -82,7 +82,7 @@ resource "aws_route" "private_route" {
   nat_gateway_id         = "${ aws_nat_gateway.nat.id }"
 }
 
-# associate subnet public to public route table
+# associate public subnet to public route table
 resource "aws_route_table_association" "public_subnet_association" {
   subnet_id      = "${ aws_subnet.public_subnet.id }"
   route_table_id = "${ aws_vpc.vpc_env.main_route_table_id }"
