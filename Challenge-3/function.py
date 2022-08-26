@@ -6,8 +6,8 @@ def getKey(obj: dict):
         raise Exception('either multiple keys or empty dict found')
     else:
         return keys[0]
-
-
+    
+#adding nestedvalue fn
 def getNestedValue(obj: dict, key: str, isFound = False):
     # print(obj, key, isFound)
     if type(obj) is not dict and not isFound:
