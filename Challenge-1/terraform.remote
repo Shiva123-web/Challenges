@@ -1,0 +1,3 @@
+bucket = "3-tier-env"
+key    = "terraform.tfstate"
+region = "us-east-2"
