@@ -3,7 +3,7 @@ Terraform >= 0.11.1
 AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables exported.
 Commands to be used.. Go to the appropriate directory path
 
-Initializing Terrraform remote backend: terraform init -backend-config=terraform.remote
+Initializing Terrraform remote backend: terraform init --backend-config=terraform.remote
 
 Run the terraform plan command Terraform plan
 
