@@ -6,7 +6,7 @@ SSH into the instance
 Install Python 3 and git on your instance
 sudo yum install python3 git
 Clone this repository
-git clone https://github.com/Shiva123-web/Challenges/Challenge-2
+git clone https://github.com/Shiva123-web/Challenges/tree/main/Challenge-2
 
 Install pipenv
 sudo pip3 install pipenv
