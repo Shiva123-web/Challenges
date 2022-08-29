@@ -1,5 +1,6 @@
 
 Terraform >= 0.11.1
+
 AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables exported.
 Commands to be used.. Go to the appropriate directory path
 
